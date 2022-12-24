@@ -19,13 +19,13 @@
 ### Build
 
 ```bash
-yarn build
+pnpm build
 ```
 
 ### Build with Bundle Analyzer
 
 ```bash
-yarn build-analyze
+pnpm build-analyze
 ```
 
 ## License

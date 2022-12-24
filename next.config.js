@@ -15,8 +15,10 @@ const plugins = [bundleAnalyzer, pwa]
 /**
  * @type {import('next').NextConfig}
  */
+const nextConfig = {
+  poweredByHeader: false,
+}
+
 module.exports = () => {
-  return plugins.reduce((acc, next) => next(acc), {
-    poweredByHeader: false,
-  })
+  return plugins.reduce((acc, next) => next(acc), nextConfig)
 }

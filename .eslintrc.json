@@ -32,6 +32,7 @@
   "rules": {
     "no-use-before-define": "off",
     "react/prop-types": "off",
+    "space-before-function-paren": "off",
     "prettier/prettier": "error",
     "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/member-delimiter-style": "off",
