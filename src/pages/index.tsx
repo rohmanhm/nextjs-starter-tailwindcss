@@ -1,5 +1,6 @@
-import { Button } from '#/components/Button'
-import Head from 'next/head'
+import Head from 'next/head';
+
+import { Button } from '@/components/Button';
 
 const IndexPage = () => {
   return (
@@ -11,7 +12,7 @@ const IndexPage = () => {
       <br />
       <Button onClick={() => alert('Hi')}>Click me</Button>
     </div>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
