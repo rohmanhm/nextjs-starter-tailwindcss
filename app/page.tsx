@@ -1,18 +1,13 @@
-import Head from 'next/head';
+'use client';
 
 import { Button } from '@/components/Button';
 
-const IndexPage = () => {
+export default function Page() {
   return (
     <div>
-      <Head>
-        <title>Hello World</title>
-      </Head>
       hello world
       <br />
       <Button onClick={() => alert('Hi')}>Click me</Button>
     </div>
   );
-};
-
-export default IndexPage;
+}
