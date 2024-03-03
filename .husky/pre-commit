@@ -1,2 +1,4 @@
-pnpm run lint
+#!/bin/sh
+
+pnpm exec lint-staged
 pnpm run format
