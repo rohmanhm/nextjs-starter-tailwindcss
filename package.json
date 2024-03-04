@@ -9,12 +9,10 @@
     "start": "next start",
     "export": "next export",
     "build": "next build",
-    "build-analyze": "cross-env ANALYZE=true next build",
-    "check-formatting": "prettier --list-different 'src/**/*.{ts,tsx}'",
-    "clean-build": "rm -rf out .next*",
-    "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
+    "build:analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint",
-    "postinstall": "husky install",
+    "clean": "rm -rf out .next*",
+    "format": "prettier --write \"**/*.{css,js,ts,tsx,md}\"",
     "prepare": "husky"
   },
   "dependencies": {
